@@ -1,0 +1,209 @@
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk", sans-serif;
+    box-sizing: border-box;
+
+}
+
+.content {
+    width: 700px;
+    margin:  130px auto;
+    box-shadow: 10px 10px 8px 5px #d2d2d2;
+    display: flex;
+    border-radius: 35px;
+    
+
+
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 35px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+.result {
+    margin: 10px auto 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.right-side { 
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    margin: 20px auto;
+    
+}
+
+
+.rate {
+    margin: 10px auto;
+    font-size: 30px;
+    font-weight: 600;
+   
+}
+
+.score {
+    font-size: 70px;
+    font-weight: 600;
+    
+}
+
+.discription {
+    width: 70%;
+    margin: 20px auto 30px;
+    opacity: 0.7;
+}
+
+.summary { 
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.ul-list {
+    list-style: none;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ul-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px;
+    border-radius: 10px;
+    height: 40px;
+    gap: 10px;
+    
+}
+.ul-list li span{
+   position: absolute;
+   right: 20px;
+   color: rgb(150, 150, 150);
+   display: flex;
+   font-weight: 600;
+   gap: 5px;
+    
+    
+}
+
+.each-rate {
+    color:hsl(224, 30%, 27%);
+}
+
+.reaction {
+    background: rgb(250, 202, 202);
+    color: hsl(0, 100%, 67%);
+    
+}
+
+.memory {
+    background: rgb(255, 236, 200);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+background: rgb(170, 239, 170);
+color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background: rgb(199, 199, 253);
+    color: hsl(234, 85%, 45%);
+}
+
+.continue {
+    width: 300px;
+    height: 50px;
+    margin: 30px auto;
+    border-radius: 30px;
+    outline:  none;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+
+.circle :nth-child(2) {
+    color: rgb(189, 187, 187);
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .result {
+        margin: 10px auto 10px;
+    }
+
+    .content {
+        width: 370px;
+        flex-direction: column;
+        margin-top: 0;
+        
+    }
+    .right-side {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        margin: 10px auto;
+        padding: 35px;
+        
+    }
+
+    .score {
+        font-size: 50px;
+        
+    }
+
+
+.left-side {
+    height: 30%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    
+}
+
+.right-side {
+    height: 70%;
+}
+
+
+.discription {
+    width: 80%;
+    margin: 10px auto;
+  
+}
+ 
+}
