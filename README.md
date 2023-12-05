@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of desktop](./Screenshot-desktop.png)
+![screenshot of desktop](./Screenshot-desktop.png) |![screenshot of mobile](./Screenshot-mobile.png)
 
 ## My process
 
