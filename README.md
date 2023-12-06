@@ -36,11 +36,12 @@ Users should be able to:
 
 ### What I learned
 
-for html, I learned how span can be inline with other elements as well as it can be easily styled with css or javascript.
 
-I learned about how flex-direction can adjust the flow direction of elements with column,low.
-I also learned how linear-gradient can blend with multiple colors and you can adjust the flow of color with degree. 
+In HTML, I discovered how the <span> element can seamlessly align inline with other elements and how it's adaptable for styling using CSS or JavaScript.
 
+Furthermore, I gained knowledge about how the flex-direction property can modify the flow direction of elements, such as arranging them in a column or row layout.
+
+Moreover, I explored the versatility of linear-gradient, discovering its ability to blend multiple colors seamlessly. It fascinated me to learn how the flow of colors within the gradient can be precisely adjusted by specifying degrees.
 
 
 ```html
