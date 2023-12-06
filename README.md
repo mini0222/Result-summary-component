@@ -72,7 +72,7 @@ Moreover, I explored the versatility of linear-gradient, discovering its ability
 
 ### Continued development
 
-I would like to make actual tests for each section and calculate the user's average score, make the application more dynamic by building with javascript.
+I aim to develop tests for each section and calculate the average user score. Furthermore, I plan to enhance the application's dynamism by utilizing JavaScript.
 
 
 
